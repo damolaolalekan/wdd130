@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #7e8591;
+    --primary-color: #fff;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: white;
+    background-color: var(--primary-color);
     color: var(--accent2-color);
 }
 
@@ -47,7 +47,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -55,10 +55,10 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--primary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     top: 68%;
     background-color: var(--accent2-color);
@@ -76,8 +76,8 @@ article {
 
 section h2 {
     padding: 16px;
-    background-color: #183263;
-    color: #fff;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
