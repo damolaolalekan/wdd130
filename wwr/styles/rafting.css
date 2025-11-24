@@ -34,8 +34,8 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr; 
     align-items: center; 
-    background-color: #222; 
-    color: white;
+    background-color: #fff; 
+    color: #264653;
 }
 
 header img {
@@ -206,7 +206,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
     border-top: 3px solid var(--accent1-color);
     padding: 16px;
     margin-top: 20px;
