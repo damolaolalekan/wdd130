@@ -33,8 +33,7 @@ header {
     padding: 10px 0;
     display: grid;
     grid-template-columns: 150px 1fr; 
-    align-items: center; 
-    background-color: #fff; 
+    align-items: center;  
     color: #264653;
 }
 
@@ -56,7 +55,7 @@ nav {
 }
 
 nav a {
-    color: var(--primary-color);
+    color: #ffffff;
     text-decoration: none;
     padding: 10px;
     display: block;  
