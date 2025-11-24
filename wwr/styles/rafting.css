@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #fff;
-    --secondary-color: #f4a261;
+    --primary-color: #ffffff;
+    --secondary-color: #b96a27;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --accent2-color: #c49c32;
 
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -34,7 +34,7 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr; 
     align-items: center; 
-    background-color: #333; 
+    background-color: #222; 
     color: white;
 }
 
@@ -51,7 +51,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    background-color: #cdd5d8;
+    background-color: #395b63;
     padding: auto;
 }
 
@@ -70,7 +70,7 @@ main {
 main img {
   width: 300px;          
   height: 200px;         
-  border: 2px solid #000; 
+  border: 2px solid var(--accent1-color); 
   padding: 5px;          
   box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
 }
@@ -91,7 +91,7 @@ article {
 
 .hero {
     position: relative;
-    background-color: #cdd5d8;
+    background-color: #d2d8da;
     padding: 50px;
 }
 
@@ -99,7 +99,7 @@ article {
     position: absolute;
     top: 100px;
     left: 150px;
-    color: #cbb5b5;
+    color: #3d2f2f;
     font-size: 2rem;
     z-index: 2;
 }
@@ -113,9 +113,9 @@ article {
     position: absolute;
     top: 65%;
     background-color: var(--accent2-color);
-    color: #ffffff;
+    color: #000;
     padding: 15px;
-    opacity: 0.85;
+    opacity: 0.9;
     z-index: 2;
 }
 
@@ -124,12 +124,6 @@ article {
     width: 90px;  
     height: auto;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-}
-
-main img {
-    border: 2px solid var(--accent1-color);
-    padding: 4px;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 
 section h2 {
@@ -168,7 +162,7 @@ aside {
     border: 2px solid var(--accent1-color);
     padding: 16px;
     background-color: var(--secondary-color);
-    color: #ffffff;
+    color: #000;
 }
 
 aside img {
@@ -216,7 +210,6 @@ footer {
     border-top: 3px solid var(--accent1-color);
     padding: 16px;
     margin-top: 20px;
-    border-top: 2px solid #000;
     text-align: center;
 }
 
