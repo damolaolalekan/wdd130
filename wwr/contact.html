@@ -52,20 +52,35 @@
                 </div>
 
                 <div class="flex">
-                    <label for="">Message Purpose</label>
+                    <label for="purpose1">Message Purpose</label>
                     <div class="radio-group">
-                        <label for="Purpose"><input type="radio" name="Purpose" id="Purpose"> General Inquiry</label>
-                        <label for="Purpose"><input type="radio" name="Purpose" id="Purpose"> Reservation
-                            Question</label>
-                        <label for="Purpose"><input type="radio" name="Purpose" id="Purpose"> Website Suggestion</label>
+
+                        <label for="Purpose1">
+                            <input type="radio" name="Purpose" id="Purpose" value="General Inquiry">
+                            General Inquiry
+                        </label>
+
+                        <label for="Purpose2">
+                            <input type="radio" name="Purpose" id="Purpose" value="Reservation Question">
+                            Reservation Question
+                        </label>
+
+                        <label for="Purpose3">
+                            <input type="radio" name="Purpose" id="Purpose3" value="Website Suggestion">
+                            Website Suggestion
+                        </label>
+
                     </div>
                 </div>
 
-                <label for="message">Message</label>
-                <textarea name="message" placeholder="Type here..."></textarea>
+                <div class="textarea-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here..."></textarea>
+                </div>
 
-                <label class="newsletter">
-                    <input type="checkbox"> Please Subscribe me to the monthly newsletter
+                <label class="newsletter" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please Subscribe me to the monthly newsletter
                 </label>
 
                 <button type="submit">Get in Touch!</button>
