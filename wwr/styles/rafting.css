@@ -66,21 +66,87 @@ main {
     margin: 0 auto;
 }
 
-main img {
-  width: 300px;          
-  height: 200px;         
-  border: 2px solid var(--accent1-color); 
-  padding: 5px;          
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.5); 
-}
-
-h1 {
-    color: var(--accent1-color);
-    margin: 16px;
-    font-family: var(--heading-font);
+.company-info {
     text-align: center;
-
+    margin: 30px 0;
 }
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 250px;
+}
+
+.map { 
+    margin-top: 150px;
+    
+} 
+
+.contact-form {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.flex {
+
+    margin: 5px;
+}
+
+.flex, .name, .email {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+ .email label {
+    margin-top: 9px;
+}
+
+.name label {
+    margin-top: 9px;
+}
+
+.flex label {
+    margin-top: 50px;
+}
+
+.radio-group label {
+    display: block;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 100px;
+    width: 200px;
+}
+
+.newsletter {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #aaa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 article {
     display: flex;
