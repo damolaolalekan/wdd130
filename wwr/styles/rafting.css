@@ -29,12 +29,13 @@ header, main, aside, footer {
 
 
 header {
-    background-color: #425a62;
+    background-color: var(--primary-color);
     padding: 10px 0;
     display: grid;
     grid-template-columns: 150px 1fr; 
     align-items: center;  
     color: #264653;
+    background-color: #425a62;
     position: fixed;
     width: 100%;
     top: 0;
