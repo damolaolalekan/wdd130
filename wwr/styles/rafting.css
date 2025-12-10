@@ -295,10 +295,17 @@ footer img {
   cursor:pointer;
 }
 
-.btn-primary {
-    background:var(--accent-dark);
-    color:#fff;
-    font-weight:700;
+.btn-primary {  
+  background-color: #264653;
+  color: #fff;                        
+  font-weight: 700;                  
+  border: 2px solid rgba(0,0,0,0.2); 
+  padding: 12px 30px;                 
+  border-radius: 8px;                  
+  box-shadow: 0 4px 6px rgba(15, 8, 8, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  cursor: pointer;
+  
 }
 
 .btn-secondary {
