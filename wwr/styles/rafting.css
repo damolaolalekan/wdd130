@@ -61,21 +61,6 @@ header nav a {
     display: block;  
 }
 
-main {
-    max-width: 840px;
-    margin: 0 auto;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
-}
-
-main img {
-    width: 300px;
-    height: 200px;
-    border: 2px solid var(--accent1-color);
-    padding: 5px;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
-}
-
-
 .company-info {
     text-align: center;
     margin: 30px 0;
@@ -550,7 +535,7 @@ h1 {
     background-color: #cbb5b5;
 }
 
-.history{
+.history {
     background-color: #cbb5b5;
 }
 
@@ -576,7 +561,7 @@ h1 {
     border: 2px solid var(--accent1-color);
     padding: 16px;
     background-color: var(--secondary-color);
-    color: #000; /* White had LOW contrast */
+    color: #000; 
 }
 
 .about-me img {
