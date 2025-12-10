@@ -29,13 +29,12 @@ header, main, aside, footer {
 
 
 header {
-    background-color: var(--primary-color);
+    background-color: #425a62;
     padding: 10px 0;
     display: grid;
     grid-template-columns: 150px 1fr; 
     align-items: center;  
     color: #264653;
-    background-color: #425a62;
     position: fixed;
     width: 100%;
     top: 0;
@@ -353,7 +352,6 @@ footer img {
   padding:18px;
   background:var(--muted);
   border-top:1px solid rgba(0,0,0,0.06);
-  border-bottom:1px solid rgba(0,0,0,0.06);
   margin-bottom:28px;
 }
 
