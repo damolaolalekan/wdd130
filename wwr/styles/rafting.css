@@ -317,6 +317,7 @@ footer img {
 .btn.large {
     padding:14px 20px;
     font-size:1.05rem;
+    margin-bottom: 20px;
 }
 
 .intro-grid.container {
